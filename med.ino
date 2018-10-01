@@ -16,6 +16,7 @@
 //  int servoPin = D6; 
   String a,pathx;
   int temp,Var,person,tm;
+//Default Setup
   void setup() {
       pinMode(D0,OUTPUT);
       pinMode(D1,OUTPUT);
@@ -42,7 +43,7 @@
     Var=Firebase.getInt("/sys/Var");
     person=Firebase.getInt("/person");
     tm=Firebase.getInt("/time");
-    if(temp == 1 && person!=0 && person>=1 && person<=4)
+    if(temp == 1 && person!=0 && person>0 && person<=4)
     {
        temp=0;
        String path = "/sys/Var/";
