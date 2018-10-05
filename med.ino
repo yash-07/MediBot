@@ -1,8 +1,7 @@
   #include <ESP8266WiFi.h>
   #include <FirebaseArduino.h>
   #define FIREBASE_HOST "medibot-zee.firebaseio.com"
-  #define FIREBASE_AUTH "2cz4ULcXT11CXWt4SEinO3N5rrK03q5h5BmsmOIC"
-  
+  #define FIREBASE_AUTH "2cz4ULcXT11CXWt4SEinO3N5rrK03q5h5BmsmOIC"  
   #define WIFI_SSID "Sidhu vinu"
   #define WIFI_PASSWORD "Parmar@65"
   /*
@@ -12,7 +11,7 @@
   #define M3 D2
   #define M4 D3
 */  
-  
+
 //  int servoPin = D6; 
   String a,pathx;
   int temp,Var,person,tm;
